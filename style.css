@@ -6,140 +6,55 @@
     background-color: #F3F8FB;
 }
 
-.heading {
-    text-align: center;
-    font-size: 3.2rem;
-    margin-top: 5vh;
-    cursor: pointer;
-    text-shadow: rgba(0, 255, 213, 0.9) 10px 8px 50px;
-}
-
-.heading:hover {
-    cursor: pointer;
-    font-size: 3.4rem;
-    transition: 0.6s ease-in-out;
+body {
+    width: 100%;
+    height: 100%
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 25px;
+    width: 90%;
+    margin: 5vh auto;
 }
 
-.frontend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.heading {
+    text-align: center;
+    font-size: 4.29vw;
+    margin: 2vh 0;
 }
 
-.backend {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-img {
-    margin-top: 1.5vw;
-    height: 65vh;
-    width: 70vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.heading:hover {
+    text-shadow: 0 0 10px rgb(131, 131, 131);
     cursor: pointer;
-    border-radius: 10px;
 }
 
-img:hover {
-    height: 67vh;
-    width: 72vw;
-    transition: all 0.5s ease-in-out;
-    border-radius: 10px;
+.main img {
+    width: 100%;
+    height: 43vh;
 }
 
-.Tailwind_CSS_Question img {
-    margin: 1.1vw 15vw;
-    height: 75vh;
-    width: 70vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.fronend_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
 }
 
-.Tailwind_CSS_Question img:hover {
-    height: 77vh;
-    width: 72vw;
-    transition: all 0.5s ease-in-out;
-    border-radius: 10px;
-}
+.cart {
+    box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.5);
+    border-radius: 0.5rem;
+    padding:  0.8rem;
+    transition: all 0.3s linear;
+  }
 
-.JavaScript_Question img {
-    margin: 1.1vw 15vw;
-    height: 70vh;
-    width: 70vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+  .cart:hover {
+    box-shadow: 0 0 10px gray;
+  }
 
-.JavaScript_Question img:hover {
-    height: 72vh;
-    width: 72vw;
-    transition: all 0.5s ease-in-out;
-}
+  a {
+    text-decoration: none;
+    color: black;
+  }
 
-
-/* Question & Answer Styleing Start */
-.css_qa {
-    margin: 1.5vw 15vw;
-    width: 70vw;
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    display: none;
-}
-
-.css_qa img:hover {
-    margin-top: 1.5vw;
-    height: 65vh;
-    width: 70vw;
-}
-
-.css_qa h1 {
-    font-size: 2.5rem;
-    background-color: #FFFFFF;
-    margin-top: 20px;
-    padding-left: 10px;
-}
-
-.css_qa h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    background-color: #FFFFFF;
-    padding-left: 10px;
-}
-
-.css_qa p {
-    font-size: 1.2rem;
-    font-weight: 400;
-    background-color: #FFFFFF;
-    margin-bottom: 10px;
-    padding-left: 10px;
-}
-
-ul {
-    background-color: #FFFFFF;
-    padding-left: 10px;
-    margin-left: 30px;
-}
-
-ul li {
-    background-color: #FFFFFF;
-    list-style: square;
-    margin-bottom: 10px;
-    font-size: 1.2rem;
-}
-/* Question & Answer Styleing End */
+  h3 {
+    padding: 2vh 0 1vh;
+  }
