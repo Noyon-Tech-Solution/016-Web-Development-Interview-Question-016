@@ -9,11 +9,3 @@ html , body{
     height: auto;
     scroll-behavior: smooth;
 }
-
-h1 {
-    text-align: center;
-    font-size: 6vw;
-    margin-top: 150px;
-    text-transform: uppercase;
-    color: red;
-}
